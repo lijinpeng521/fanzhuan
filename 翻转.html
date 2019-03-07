@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title></title>
+	<style>
+		.main{
+			width: 400px;
+			height: 400px;
+			perspective: 8000px;         
+			transform-style: preserve-3d;
+			}
+		.main:hover{
+			transform:  rotateY(720deg);
+			transition:  all 10s ease-in;
+		}
+
+		
+		.qian{
+			width: 400px;
+			height: 400px;
+			background: red;
+			float: left;
+			transform:  rotateY(180deg);
+		}
+		.hou{
+
+			width: 400px;
+			height: 400px;
+			background: green;
+			transform:  rotateY(180deg);
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="qian"></div>
+		<div class="hou"></div>
+	</div>
+</body>
+</html>
